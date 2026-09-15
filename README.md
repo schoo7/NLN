@@ -26,11 +26,11 @@ Version 1 measures the temporal union of absolute red-channel changes. Version 2
 
 The calculation order is:
 
-1. Apply a 5 by 5 Gaussian blur to each complete RGB frame.
+1. Apply Gaussian blur to each complete RGB frame.
 2. Crop the region of interest, if supplied.
 3. Select the red channel.
 4. Compare adjacent timepoints.
-5. Keep differences strictly greater than the threshold.
+5. Keep differences strictly greater than the pre-defined threshold.
 6. Combine binary masks across time with a logical OR.
 
 For Version 2, `absolute = increase OR decrease`. A pixel may occur in both directional temporal unions if it changes in opposite directions during different transitions. Therefore, `absolute count = increase count + decrease count - overlap count`.
@@ -67,7 +67,7 @@ cd trafficking_analysis
 python run_demo.py
 ```
 
-The command creates `demo_output/` and should finish in less than one minute on a normal desktop. With threshold 0 and the full image, the expected summary is:
+The command creates `demo_output/` and should finish in less than one minute on a normal desktop. With threshold 0 (the paper recommends a biology meaningful value 100-200) and the full image, the expected summary is:
 
 | Series | Frames | ROI pixels | Absolute pixels | Absolute % | Increase | Increase % | Decrease | Decrease % | Overlap | Overlap % |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
