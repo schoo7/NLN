@@ -1,0 +1,33 @@
+TRAFFICKING ANALYSIS RESTRICTED RESEARCH REVIEW LICENSE
+Version 1.0
+
+Copyright (c) 2026 Zirui Fu. All rights reserved.
+
+This license applies to the software, documentation, tests, legacy code, and
+demo images contained in the trafficking_analysis directory. It does not apply
+to the separate R directory or to separately licensed third-party software.
+
+Permission is granted only to persons explicitly authorized by the copyright
+holder to access, inspect, and execute these materials solely for confidential
+research evaluation and peer review.
+
+Redistribution is prohibited. No authorized user may publish, redistribute,
+sublicense, sell, transfer, disclose, or otherwise make available any portion
+of these materials, whether modified or unmodified, to any other person or
+service without prior written permission from the copyright holder.
+
+Authorized users may create only the temporary copies and analysis outputs
+reasonably necessary for the permitted evaluation. Those copies and outputs
+must remain confidential and must be deleted when authorization ends or when
+the copyright holder requests their deletion.
+
+No permission is granted to modify the materials, create derivative works, or
+use them for commercial, clinical, or other purposes outside the permitted
+evaluation. All rights not expressly granted are reserved by the copyright
+holder. This permission terminates automatically if these terms are violated.
+
+THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT
+HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE
+MATERIALS OR THEIR USE.
